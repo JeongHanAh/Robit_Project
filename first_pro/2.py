@@ -12,3 +12,4 @@ def add_log(robot_name, battery, logs = []):
 print(add_log("frontbot", 80))
 print(add_log("rearbot", 50))
 print(add_log("armbot", 20))
+print(logs)
