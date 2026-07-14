@@ -80,7 +80,7 @@ while True:
     user_input = input("Enter your command: ")
     if "decompress(" in user_input:
         command = "decompress"
-    elif "compress(" in user_input:
+    elif "compress(" in user_input: #decompress 스펠링에 compress가 포함되어 있어 둘의 순서에 유의
         command = "compress"
     elif user_input == "0":
         print("프로그램 종료")
