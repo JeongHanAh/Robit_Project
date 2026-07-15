@@ -18,7 +18,7 @@ void main() {
 				printf("*");
 			}
 			else if (i == a) {
-				for (int j = 1; j < i*2; j++) {
+				for (int j = 0; j < i*2 - 1; j++) {
 					printf("*");
 				}
 			}
